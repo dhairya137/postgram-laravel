@@ -6,11 +6,13 @@ use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Auth\RegisterController;
 
-Route::get('/', function (){
+Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])
+    ->name('dashboard');
+//    ->middleware('auth');
 
 Route::post('/logout', [LogoutController::class, 'store'])->name('logout');
 
