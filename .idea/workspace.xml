@@ -22,8 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="274e3bc7-05aa-40af-9e6a-09e668898598" name="Default Changelist" comment="">
+    <list default="true" id="274e3bc7-05aa-40af-9e6a-09e668898598" name="Default Changelist" comment="user logging done">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LogoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,11 +158,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kP0dV2TKObz5VFa2ioCiAYtCUF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -184,7 +191,7 @@
       <workItem from="1605587009668" duration="72000" />
       <workItem from="1605587142028" duration="4177000" />
       <workItem from="1605621814063" duration="4665000" />
-      <workItem from="1605681839657" duration="1414000" />
+      <workItem from="1605681839657" duration="2277000" />
     </task>
     <task id="LOCAL-00001" summary="user registerd">
       <created>1605626655814</created>
@@ -200,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605627227111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="user logging done">
+      <created>1605683310535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605683310535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,9 +233,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="user registerd" />
     <MESSAGE value="navba authenticated" />
-    <option name="LAST_COMMIT_MESSAGE" value="navba authenticated" />
+    <MESSAGE value="user logging done" />
+    <option name="LAST_COMMIT_MESSAGE" value="user logging done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="349" y="67" key="#CLI_Interpreters" timestamp="1605589254659">
@@ -264,9 +280,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="588" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605626636939" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605682938472">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605683482357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605682938472" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605683482357" />
   </component>
 </project>
